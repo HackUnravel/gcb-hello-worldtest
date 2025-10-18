@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Hello from the container! from fork PR forged"]
+CMD ["echo", "Hello from the container! from fork PR forged - again edited"]
