@@ -6,3 +6,5 @@ steps:
   args: ['build', '-t', 'gcr.io/bugs-404006/my-image', '.']
 images:
 - 'gcr.io/bugs-404006/my-image'
+options:
+  logging: CLOUD_LOGGING_ONLY
