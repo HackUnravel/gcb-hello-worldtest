@@ -1,3 +1,8 @@
 steps:
 - name: 'ubuntu'
   args: ['echo', 'Hello, Cloud Build!']
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/bugs-404006/my-image', '.']
+images:
+- 'gcr.io/bugs-404006/my-image'
