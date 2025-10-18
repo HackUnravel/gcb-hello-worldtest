@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Hello from the container!"]
+CMD ["echo", "Hello from the container! - edited "]
