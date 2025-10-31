@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Hello from the container - owner commit !"]
+CMD ["echo", "Hello from the container - owner commit 1!"]
